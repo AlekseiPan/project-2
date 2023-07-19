@@ -1,0 +1,26 @@
+.page-form {
+  @media (min-width: @desktop-width) {
+    display: grid;
+    grid-template-columns: auto 1200px auto;
+  }
+
+  @media (min-width: 1280px) {
+    grid-template-columns: 40px auto 40px;
+  }
+}
+
+.page-form__entry {
+  width: 320px;
+  padding: 36px 20px 16px;
+  margin: 0 auto;
+
+  @media (min-width: @tablet-width) {
+    width: @tablet-width;
+    padding: 64px 165px 87px;
+  }
+
+  @media (min-width: @desktop-width) {
+    width: @desktop-width;
+    padding: 114px 380px 60px;
+  }
+}
